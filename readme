@@ -1,0 +1,11 @@
+make sure you have python and pip installed
+
+run this command in your terminal to install required folders:
+
+    pip install psycopg2
+
+In you databases query tools load up and run the createTablesCommands.sql file
+
+You will need to configure line 60 in studentDB.py to ensure that the app connects to your desired database server
+
+Afterwards simply run the studentDB.py file to use the application
